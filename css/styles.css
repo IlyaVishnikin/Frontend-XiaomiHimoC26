@@ -158,7 +158,6 @@ body {
   width: 3px;
   height: 25px;
 
-
   padding: 0;
   border: none;
   background-color: var(--color-black);
@@ -174,3 +173,27 @@ body {
 }
 
 /* SECTION DESCRIPTION END */
+
+/* SECTION BENEFITS BEGIN */
+.section-benefits {
+  margin-top: 150px;
+}
+
+.section-benefits__inner {
+  display: flex;
+  gap: 60px;
+}
+
+.section-benefits__benefits-block {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.benefits-block__header {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+/* SECTION BENEFITS END */
