@@ -6,6 +6,10 @@
   --color-tomato: #FF4040;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   font-size: 14px;
