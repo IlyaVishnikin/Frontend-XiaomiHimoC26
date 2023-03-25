@@ -274,7 +274,6 @@ body {
 /* SECTION BUY BEGIN */
 .section-buy {
   margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 .section-buy__top-side {
@@ -407,3 +406,41 @@ body {
 }
 
 /* SECTION BUY END */
+
+/* FOOTER BEGIN */
+.footer {
+  margin-top: 100px;
+  background-color: var(--color-black);
+
+  color: var(--color-white);
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 25px 0;
+}
+
+.footer__policy {
+  text-transform: lowercase;
+  text-decoration: underline;
+}
+
+.footer__social-links {
+  display: flex;
+  gap: 30px;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__contact {
+  display: flex;
+  gap: 10px;
+}
+/* FOOTER END */
