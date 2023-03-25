@@ -263,3 +263,29 @@ body {
 }
 
 /* SECTION CHARACTERISTICS END */
+
+
+/* SECTION BUY BEGIN */
+.section-buy {
+  margin-top: 100px;
+}
+
+.buy-slider {
+  position: absolute;
+  width: 1150px;
+  height: 632px;
+
+  margin-bottom: 50px;
+}
+
+.buy-slider .slick-dots {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.buy-slider {
+  padding-left: 50px;
+}
+
+/* SECTION BUY END */
