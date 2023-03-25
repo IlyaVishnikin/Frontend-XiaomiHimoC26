@@ -19,6 +19,27 @@ body {
 
   margin: 0 auto;
 }
+
+.button {
+  display: inline-block;
+  margin-top: 115px;
+  padding: 28px 81px;
+  
+  cursor: pointer;
+
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1.1em;
+
+  background-color: var(--color-black);
+  color: var(--color-white);
+  
+  transition: background-color .2s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--color-tomato);
+}
 /* GENERAL END */
 
 /* HEADER BEGIN */
@@ -93,20 +114,8 @@ body {
   line-height: 1.2;
 }
 
-.section-description__buy-product {
-  display: inline-block;
-  margin-top: 115px;
-  padding: 28px 81px;
-  
-  text-transform: uppercase;
-  font-size: 20px;
-  letter-spacing: 1.1em;
 
-  background-color: var(--color-black);
-  color: var(--color-white);
-  
-  transition: background-color .2s ease-in-out;
-}
+
 
 .section-description__product-slider {
   max-width: 640px;
@@ -115,9 +124,6 @@ body {
   text-align: center;
 }
 
-.section-description__buy-product:hover {
-  background-color: var(--color-tomato);
-}
 
 .section-description__reasons-to-buy {
   display: flex;
@@ -268,14 +274,17 @@ body {
 /* SECTION BUY BEGIN */
 .section-buy {
   margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section-buy__top-side {
+  margin-bottom: 50px;
 }
 
 .buy-slider {
-  position: absolute;
+  position: relative;
   width: 1150px;
   height: 632px;
-
-  margin-bottom: 50px;
 }
 
 .buy-slider .slick-dots {
@@ -286,6 +295,115 @@ body {
 
 .buy-slider {
   padding-left: 50px;
+}
+
+.section-buy__bottom-side {
+  position: relative;
+}
+
+.section-buy__header {
+  margin-bottom: 40px;
+  
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.section-buy__form-header {
+  max-width: 300px;
+  margin-bottom: 30px;
+
+  line-height: 1.2;
+}
+
+.form-buy__input {
+  display: block;
+  width: 420px;
+
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  
+  border: none;
+  border-bottom: 1px var(--color-dark-gray) solid;
+
+  outline: none;
+}
+
+.form-buy__colors-header {
+  margin-bottom: 10px;
+  color: var(--color-dark-gray);
+}
+
+.form-buy__bikes-variants {
+  display: flex;
+  gap: 23px;
+}
+
+.form-buy__radio,
+.form-buy__radio + .form-buy__bike-preview {
+  display: none;
+}
+
+.form-buy__radio:checked + .form-buy__bike-preview {
+  display: block;
+}
+
+.form-buy__bike-preview {
+  position: absolute;
+
+  top: 0;
+  right: 0;
+}
+
+.form-buy__bike-price-container {
+  padding-top: 30px;
+}
+
+.form-buy__bike-price-inner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 221px;
+  height: 112px;
+}
+
+.bike-price-inner__decoration-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bike-price-inner__decoration-2 {
+  position: absolute;
+  left: 0;
+}
+
+.form-buy__bike-price {
+  z-index: 100;
+
+  font-size: 32px;
+  text-align: center;
+}
+
+.form-buy__radio-wrapper {
+  width: 80px;
+  height: 12px;
+  border-radius: 30px;
+
+  cursor: pointer;
+}
+
+.form-buy__radio-wrapper--white {
+  border: 1px var(--color-dark-gray) solid;
+}
+
+.form-buy__radio-wrapper--gray {
+  background-color: var(--color-dark-gray);
+}
+
+.form-buy__radio-wrapper--red {
+  background-color: var(--color-tomato);
 }
 
 /* SECTION BUY END */

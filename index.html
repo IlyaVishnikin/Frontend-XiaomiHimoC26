@@ -41,7 +41,7 @@
               <p class="description-block__item">Полная свобода передвижения и надежный транспорт для путешествий на любые расстояния</p>
               <p class="descriptoin-block__item">HIMO C26 – это новый электровелосипед от Xiaomi, который создан как для езды по городу, так и бездорожью. Он имеет мощный двигатель и емкий аккумулятор, благодаря которым способен проезжать на одном заряде до 100 км, что определенно выше, чем у большинства конкурентов. А большие колеса с пневматическими шинами, дисковые тормоза, 7-скоростная трансмиссия и эргономичное сидение делают каждую поездку гораздо приятнее.</p>
             </div>
-            <a class="section-description__buy-product" href="#">ЗАКАЗАТЬ</a>
+            <a class="section-description__buy-product button" href="#">ЗАКАЗАТЬ</a>
           </div>
           <div class="section-description__right-side">
             <div class="section-description__product-slider product-slider">
@@ -230,6 +230,7 @@
     <div class="section-buy">
       <div class="main-container">
         <div class="section-buy__inner">
+
           <div class="section-buy__top-side">
             <div class="section-buy__slider buy-slider">
               <img class="buy-slider__item" src="img/main/section-buy/1.jpg" alt="Xiaomi Himo C26 Bike">
@@ -237,12 +238,68 @@
               <img class="buy-slider__item" src="img/main/section-buy/3.jpg" alt="Xiaomi Himo C26 Bike">
             </div>
           </div>
+        
           <div class="section-buy__bottom-side">
-            <div class="section-buy__left-side">
-            </div>
-            <div class="section-buy__right-side">
-            </div>
-          </div>
+            <h3 class="section-buy__header">Заказать</h3>
+            <p class="section-buy__form-header">Если Вы хотите заказать велосипед, оставьте свой контакт и наш менеджер перезвонит вам в ближайшее время</p>
+            <form class="section-buy__form-buy form-buy" action="#" method="post">
+              <input class="form-buy__input" name="user-name" type="text" placeholder="имя" required>
+              <input class="form-buy__input" name="user-phone" type="phone" placeholder="телефон" required>
+
+              <p class="form-buy__colors-header">выберите желаемый цвет</p>
+              <div class="form-buy__bikes-variants">
+
+
+                <label class="form-buy__label">
+                  <input class="form-buy__radio" type="radio" name="bike-color" value="gray">
+                  <div class="form-buy__bike-preview">
+                    <div class="form-buy__bike-price-container">
+                      <div class="form-buy__bike-price-inner">
+                        <img class="bike-price-inner__decoration-1" src="img/main/section-buy/price-decoration.svg" alt="">
+                        <img class="bike-price-inner__decoration-2" src="img/main/section-buy/price-decoration.svg" alt="">
+                        <p class="form-buy__bike-price">32 999 &#8381;</p>
+                      </div>
+                    </div>
+                    <img class="form-buy__bike-image" src="img/main/section-buy/gray-bike.jpg" alt="Xiaomi Himo C26 Gray Color">
+                  </div>
+                  <div class="form-buy__radio-wrapper form-buy__radio-wrapper--gray"></div>
+                </label>
+
+
+                <label class="form-buy__label">
+                  <input class="form-buy__radio" type="radio" name="bike-color" value="white" checked>
+                  <div class="form-buy__bike-preview">
+                    <div class="form-buy__bike-price-container">
+                      <div class="form-buy__bike-price-inner">
+                        <img class="bike-price-inner__decoration-1" src="img/main/section-buy/price-decoration.svg" alt="">
+                        <img class="bike-price-inner__decoration-2" src="img/main/section-buy/price-decoration.svg" alt="">
+                        <p class="form-buy__bike-price">32 999 &#8381;</p>
+                      </div>
+                    </div>
+                    <img class="form-buy__bike-image" src="img/main/section-buy/white-bike.jpg" alt="Xiaomi Himo C26 White Color">
+                  </div>
+                  <div class="form-buy__radio-wrapper form-buy__radio-wrapper--white"></div>
+                </label>
+
+
+                <label class="form-buy__label">
+                  <input class="form-buy__radio" type="radio" name="bike-color" value="red">
+                  <div class="form-buy__bike-preview">
+                    <div class="form-buy__bike-price-container">
+                      <div class="form-buy__bike-price-inner">
+                        <img class="bike-price-inner__decoration-1" src="img/main/section-buy/price-decoration.svg" alt="">
+                        <img class="bike-price-inner__decoration-2" src="img/main/section-buy/price-decoration.svg" alt="">
+                        <p class="form-buy__bike-price">32 999 &#8381;</p>
+                      </div>
+                    </div>
+                    <img class="form-buy__bike-image" src="img/main/section-buy/red-bike.jpg" alt="Xiaomi Himo C26 Red Color">
+                  </div>
+                  <div class="form-buy__radio-wrapper form-buy__radio-wrapper--red"></div>
+                </label>
+
+              </div>
+              <button class="button" type="submit">ЗАКАЗАТЬ</button>
+            </form>
         </div>
       </div>
     </div>
